@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T11:24:04 IDT" name="Default suite" finished-at="2022-08-22T11:24:22 IDT" duration-ms="17690">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T11:24:04 IDT" name="Default test" finished-at="2022-08-22T11:24:22 IDT" duration-ms="17690">
+      <class name="tests.End2EndTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:04 IDT" name="setup" finished-at="2022-08-22T11:24:08 IDT" duration-ms="3709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_Standard_User()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:08 IDT" name="TC01_Standard_User" description="Standard_user " finished-at="2022-08-22T11:24:10 IDT" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Standard_User -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:10 IDT" name="failedTest" finished-at="2022-08-22T11:24:10 IDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Standard_User status=SUCCESS method=End2EndTest.TC01_Standard_User()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc02_add_products_from_products()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:10 IDT" name="tc02_add_products_from_products" description="add products to cart" finished-at="2022-08-22T11:24:11 IDT" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_add_products_from_products -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="failedTest" finished-at="2022-08-22T11:24:11 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_add_products_from_products status=SUCCESS method=End2EndTest.tc02_add_products_from_products()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc03_Count_product_2()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="tc03_Count_product_2" description="count products in cart - 2" finished-at="2022-08-22T11:24:11 IDT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_Count_product_2 -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="failedTest" finished-at="2022-08-22T11:24:11 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_Count_product_2 status=SUCCESS method=End2EndTest.tc03_Count_product_2()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc04_add_item_from_item_page()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="tc04_add_item_from_item_page" description="add item from item page" finished-at="2022-08-22T11:24:11 IDT" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_add_item_from_item_page -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="failedTest" finished-at="2022-08-22T11:24:11 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_add_item_from_item_page status=SUCCESS method=End2EndTest.tc04_add_item_from_item_page()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc05_go_to_cart()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="tc05_go_to_cart" description="go to cart" finished-at="2022-08-22T11:24:11 IDT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_go_to_cart -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="failedTest" finished-at="2022-08-22T11:24:11 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_go_to_cart status=SUCCESS method=End2EndTest.tc05_go_to_cart()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc06_remove_item_from_cart()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:11 IDT" name="tc06_remove_item_from_cart" description="remove item from cart " finished-at="2022-08-22T11:24:12 IDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_remove_item_from_cart -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:12 IDT" name="failedTest" finished-at="2022-08-22T11:24:12 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_remove_item_from_cart status=SUCCESS method=End2EndTest.tc06_remove_item_from_cart()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc07_continue_shopping()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:12 IDT" name="tc07_continue_shopping" description="continue shopping " finished-at="2022-08-22T11:24:15 IDT" duration-ms="3702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_continue_shopping -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:15 IDT" name="failedTest" finished-at="2022-08-22T11:24:15 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_continue_shopping status=SUCCESS method=End2EndTest.tc07_continue_shopping()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc08_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:15 IDT" name="tc08_checkout" description="checkout " finished-at="2022-08-22T11:24:15 IDT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_checkout -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:15 IDT" name="failedTest" finished-at="2022-08-22T11:24:15 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_checkout status=SUCCESS method=End2EndTest.tc08_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc09_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:15 IDT" name="tc09_checkout" description="checkout - fill form " finished-at="2022-08-22T11:24:16 IDT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_checkout -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:16 IDT" name="failedTest" finished-at="2022-08-22T11:24:16 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc09_checkout status=SUCCESS method=End2EndTest.tc09_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc10_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:16 IDT" name="tc10_checkout" description="checkout " finished-at="2022-08-22T11:24:17 IDT" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_checkout -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:17 IDT" name="failedTest" finished-at="2022-08-22T11:24:17 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc10_checkout status=SUCCESS method=End2EndTest.tc10_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc11_finish_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:17 IDT" name="tc11_finish_checkout" description="finish " finished-at="2022-08-22T11:24:18 IDT" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_finish_checkout -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:18 IDT" name="failedTest" finished-at="2022-08-22T11:24:18 IDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc11_finish_checkout status=SUCCESS method=End2EndTest.tc11_finish_checkout()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc12_confirmation_back_to_main()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:18 IDT" name="tc12_confirmation_back_to_main" description="back home " finished-at="2022-08-22T11:24:19 IDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_confirmation_back_to_main -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:19 IDT" name="failedTest" finished-at="2022-08-22T11:24:19 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc12_confirmation_back_to_main status=SUCCESS method=End2EndTest.tc12_confirmation_back_to_main()[pri:0, instance:tests.End2EndTest@4c4f4365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.End2EndTest@4c4f4365]" started-at="2022-08-22T11:24:19 IDT" name="tearDown" finished-at="2022-08-22T11:24:22 IDT" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.End2EndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.ProductsTests">
+        <methods>
+          <include name="z02_tearDown"/>
+          <include name="tc08_Product_price"/>
+          <include name="failedTest"/>
+          <include name="z01_logout"/>
+          <include name="b01_setupDriver"/>
+          <include name="b02_login"/>
+        </methods>
+      </class> <!-- tests.ProductsTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
