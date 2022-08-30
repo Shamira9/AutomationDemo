@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 22 11:24:04 IDT 2022</td>
+<td>Started on:</td><td>Wed Aug 24 15:58:51 IDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17690 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29241 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,170 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.LoginTest2.TC01_nagative_user_password_testing()'><b>TC01_nagative_user_password_testing</b><br>Test class: tests.LoginTest2<br>Test method: negative login testing<br>Parameters: locked_out_user, secrete_sauce, Epic sadface: Sorry, this user has been locked out.</td>
+<td><div><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked out.] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at tests.LoginTest2.TC01_nagative_user_password_testing(LoginTest2.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace860285190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace860285190'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked out.] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at tests.LoginTest2.TC01_nagative_user_password_testing(LoginTest2.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>tests.LoginTest2@3d98d138</td></tr>
+<tr>
+<td title='tests.LoginTest2.TC01_nagative_user_password_testing()'><b>TC01_nagative_user_password_testing</b><br>Test class: tests.LoginTest2<br>Test method: negative login testing<br>Parameters: locked_out_user, secrete_sauce, Epic sadface: Sorry, this user has been locked out.</td>
+<td><div><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked out.] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at tests.LoginTest2.TC01_nagative_user_password_testing(LoginTest2.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace202606260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace202606260'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked out.] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at tests.LoginTest2.TC01_nagative_user_password_testing(LoginTest2.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>tests.LoginTest2@3d98d138</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,65 +239,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.End2EndTest.tc11_finish_checkout()'><b>tc11_finish_checkout</b><br>Test class: tests.End2EndTest<br>Test method: finish </td>
+<td title='tests.LoginTest2.TC06_Standard_User()'><b>TC06_Standard_User</b><br>Test class: tests.LoginTest2<br>Test method: Standard_user , Secret_sause - good password</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginTest2@3d98d138</td></tr>
+<tr>
+<td title='tests.LoginTest2.TC01_nagative_user_password_testing()'><b>TC01_nagative_user_password_testing</b><br>Test class: tests.LoginTest2<br>Test method: negative login testing<br>Parameters: standard_use, badData, Epic sadface: Username and password do not match any user in this service</td>
 <td></td>
 <td>1</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
+<td>tests.LoginTest2@3d98d138</td></tr>
 <tr>
-<td title='tests.End2EndTest.tc10_checkout()'><b>tc10_checkout</b><br>Test class: tests.End2EndTest<br>Test method: checkout </td>
+<td title='tests.LoginTest2.TC01_nagative_user_password_testing()'><b>TC01_nagative_user_password_testing</b><br>Test class: tests.LoginTest2<br>Test method: negative login testing<br>Parameters: , , Epic sadface: Username is required</td>
 <td></td>
 <td>1</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
+<td>tests.LoginTest2@3d98d138</td></tr>
 <tr>
-<td title='tests.End2EndTest.tc09_checkout()'><b>tc09_checkout</b><br>Test class: tests.End2EndTest<br>Test method: checkout - fill form </td>
-<td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
-<tr>
-<td title='tests.End2EndTest.TC01_Standard_User()'><b>TC01_Standard_User</b><br>Test class: tests.End2EndTest<br>Test method: Standard_user </td>
+<td title='tests.LoginTest2.TC01_nagative_user_password_testing()'><b>TC01_nagative_user_password_testing</b><br>Test class: tests.LoginTest2<br>Test method: negative login testing<br>Parameters: standard_user, , Epic sadface: Password is required</td>
 <td></td>
 <td>1</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
+<td>tests.LoginTest2@3d98d138</td></tr>
 <tr>
-<td title='tests.End2EndTest.tc07_continue_shopping()'><b>tc07_continue_shopping</b><br>Test class: tests.End2EndTest<br>Test method: continue shopping </td>
+<td title='tests.LoginTest2.TC08_performance_glitch_user()'><b>TC08_performance_glitch_user</b><br>Test class: tests.LoginTest2<br>Test method: performance_glitch_user , Secret_sause - good password</td>
 <td></td>
-<td>3</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
+<td>7</td>
+<td>tests.LoginTest2@3d98d138</td></tr>
 <tr>
-<td title='tests.End2EndTest.tc03_Count_product_2()'><b>tc03_Count_product_2</b><br>Test class: tests.End2EndTest<br>Test method: count products in cart - 2</td>
+<td title='tests.LoginTest2.TC07_Problem_User()'><b>TC07_Problem_User</b><br>Test class: tests.LoginTest2<br>Test method: Problem_user , Secret_sause - bad image</td>
 <td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
+<td>2</td>
+<td>tests.LoginTest2@3d98d138</td></tr>
 <tr>
-<td title='tests.End2EndTest.tc04_add_item_from_item_page()'><b>tc04_add_item_from_item_page</b><br>Test class: tests.End2EndTest<br>Test method: add item from item page</td>
+<td title='tests.LoginTest2.TC01_nagative_user_password_testing()'><b>TC01_nagative_user_password_testing</b><br>Test class: tests.LoginTest2<br>Test method: negative login testing<br>Parameters: No_such_user, secrete_sauce, Epic sadface: Username and password do not match any user in this service</td>
 <td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
-<tr>
-<td title='tests.End2EndTest.tc06_remove_item_from_cart()'><b>tc06_remove_item_from_cart</b><br>Test class: tests.End2EndTest<br>Test method: remove item from cart </td>
-<td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
-<tr>
-<td title='tests.End2EndTest.tc02_add_products_from_products()'><b>tc02_add_products_from_products</b><br>Test class: tests.End2EndTest<br>Test method: add products to cart</td>
-<td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
-<tr>
-<td title='tests.End2EndTest.tc05_go_to_cart()'><b>tc05_go_to_cart</b><br>Test class: tests.End2EndTest<br>Test method: go to cart</td>
-<td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
-<tr>
-<td title='tests.End2EndTest.tc08_checkout()'><b>tc08_checkout</b><br>Test class: tests.End2EndTest<br>Test method: checkout </td>
-<td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
-<tr>
-<td title='tests.End2EndTest.tc12_confirmation_back_to_main()'><b>tc12_confirmation_back_to_main</b><br>Test class: tests.End2EndTest<br>Test method: back home </td>
-<td></td>
-<td>0</td>
-<td>tests.End2EndTest@4c4f4365</td></tr>
+<td>1</td>
+<td>tests.LoginTest2@3d98d138</td></tr>
 </table><p>
 </body>
 </html>

@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class MenuLayer extends BasePage{
 
 	public MenuLayer(WebDriver driver) {
@@ -81,6 +83,7 @@ public class MenuLayer extends BasePage{
 	
 	//add/remove functions
 	
+	@Step("Add product to cart")
 	public String addProduct() {
 						
 		String buttonAction = getText(actionBtn);
@@ -98,6 +101,8 @@ public class MenuLayer extends BasePage{
 	}
 
 	//remover product from cart using REMOVER FROM CART button
+	
+	@Step("Remover product from cart")
 	public String removeProduct() {
 		
 		String result = "";

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.End2EndTest">
+      <class name="tests.LoginTest2">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="failedTest"/>
-          <include name="tc09_checkout"/>
+          <include name="TC01_nagative_user_password_testing" invocation-numbers="2 5"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.End2EndTest -->
+      </class> <!-- tests.LoginTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

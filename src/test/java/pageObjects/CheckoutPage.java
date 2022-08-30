@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class CheckoutPage extends MenuLayer {
 
 	public CheckoutPage(WebDriver driver) {
@@ -40,14 +42,14 @@ public class CheckoutPage extends MenuLayer {
 		this.fillText(postCodeFld, post);
 	}
 	
-
+	@Step("Fill out checkout form")
 	public void fillCheckoutFormAndContinue(String first, String last, String post) {
 		this.putFirst(first);
 		this.putLast(last);
 		this.putPostCode(post);
 		clickContinue();
 	}
-	
+	@Step("Fill out checkout form")
 	public void fillCheckoutForm(String first, String last, String post) {
 		this.putFirst(first);
 		this.putLast(last);

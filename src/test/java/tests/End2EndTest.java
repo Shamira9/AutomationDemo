@@ -17,8 +17,7 @@ import org.testng.annotations.Test;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
-import io.qameta.allure.Features;
-import io.qameta.allure.Param;
+
 import io.qameta.allure.Story;
 import pageObjects.CartPage;
 import pageObjects.Checkout2Page;
@@ -31,7 +30,7 @@ import pageObjects.ProductsPage;
 
 public class End2EndTest {
 
-	//updated 29.8
+	//updated
 	
 	// login to the site
 	//	add a product via products page
@@ -244,7 +243,7 @@ public class End2EndTest {
 			try {
 				FileUtils.copyFile(srcFile, new File("./ScreenShots/"+result.getName()+".jpg"));
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				//  Auto-generated catch block
 				e.printStackTrace();
 			}
 			//result.getname() method will give you current test case name. 

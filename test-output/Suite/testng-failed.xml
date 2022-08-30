@@ -3,16 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.ProductsTests">
+      <class name="tests.LoginTest2">
         <methods>
-          <include name="z02_tearDown"/>
-          <include name="tc08_Product_price"/>
-          <include name="failedTest"/>
-          <include name="z01_logout"/>
-          <include name="b01_setupDriver"/>
-          <include name="b02_login"/>
+          <include name="tearDown"/>
+          <include name="TC01_nagative_user_password_testing" invocation-numbers="4"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.ProductsTests -->
+      </class> <!-- tests.LoginTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

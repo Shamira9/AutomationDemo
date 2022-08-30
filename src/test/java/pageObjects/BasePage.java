@@ -179,6 +179,7 @@ public class BasePage {
 	/*
 	 * Call this method with your element and a color like (red,green,orange etc...)
 	 */
+	
 	protected void highlightElement(WebElement element, String color) {
 		// keep the old style to change it back
 		String originalStyle = element.getAttribute("style");
